@@ -1,4 +1,6 @@
 eero_migrate
 ============
 
-Migrate content from an Eero database to Drupal.
+A custom Drupal 7 module to migrate content from an Eero database to Drupal.
+
+Created for http://landscapeperformance.org/.

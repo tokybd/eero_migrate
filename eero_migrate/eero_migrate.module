@@ -1,0 +1,20 @@
+<?php
+/**
+ * @file
+ * Database connection for the Eero database that is the source of the migration.
+ *
+ * TOKY Branding + Design
+ * This is a standalone module not submitted to the drupal.org community.
+ *
+ * The sole purpose of this module is to migrate content from an Eero database
+ * to Drupal via the migrate module.
+ */
+
+Database::addConnectionInfo('eero_migration', 'default', array(
+  'driver' => 'mysql',
+  'database' => 'lafoundation',
+  'username' => 'root',
+  'password' => 'root',
+  'host' => 'localhost',
+  'prefix' => '',
+));

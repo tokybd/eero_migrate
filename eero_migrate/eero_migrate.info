@@ -1,0 +1,11 @@
+name = "Eero Migrate"
+description = "Migrate content from an EERO database to Drupal."
+package = TOKY Branding + Design
+version = 7.x
+core = 7.x
+files[] = "eero_migrate.migrate.inc"
+files[] = "benefits_toolkit.inc"
+files[] = "case_study_briefs.inc"
+files[] = "fast_facts.inc"
+dependencies[] = "image"
+dependencies[] = "migrate"
